@@ -247,7 +247,7 @@ for (p,point) in enumerate(probed_points):
 		
 			serial.flushInput()
 			#G30	
-			serial.write("G30 U"+str(feedrate)+"\r\n")
+			serial.write("G30\r\n")
 			#time.sleep(0.5)			#give it some to to start	
 			probe_start_time = time.time()
 			while not serial_reply[:22]=="echo:endstops hit:  Z:":

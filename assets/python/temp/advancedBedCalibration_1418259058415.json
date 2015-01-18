@@ -1,1 +1,0 @@
-{"bed_calibration":{ "point_measurements":[["22", "66.5", ["40.22"], "True"], ["184", "66.5", ["40.09"], "True"], ["22", "210", ["40.33"], "True"], ["184", "210", ["40.46"], "True"]]}, "progress" : { "pointsMeasured": 4, "pointsToMeasure": 4},"measurementInformation": { "bedscanGranularity" : 0, "feedrate" : 200, "probesPerPoint" :1, "time_left" : "00:01:21"}}

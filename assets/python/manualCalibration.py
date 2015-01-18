@@ -73,7 +73,7 @@ def measurePointHeight(x, y, initialHeight, feedrate):
 	serial.flushInput()
 	serial_reply = ""
 	probe_start_time=time.time()
-	serial.write("G30 U"+str(feedrate)+"\r\n")
+	serial.write("G30\r\n")
 	
 	while not serial_reply[:22]=="echo:endstops hit:  Z:":
 		serial_reply=serial.readline().rstrip()
